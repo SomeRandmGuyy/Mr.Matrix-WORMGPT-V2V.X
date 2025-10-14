@@ -5,10 +5,10 @@ pyshark>=0.6
 
 # Async networking and web scraping (for dark web access simulation)
 aiohttp>=3.9.0
-asyncio-compat>=0.1.0
 
 # GUI support
 # Note: tkinter comes with Python standard library
+# Note: asyncio is included in Python 3.4+
 
 # Additional utilities
 requests>=2.31.0

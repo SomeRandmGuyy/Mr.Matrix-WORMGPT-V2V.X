@@ -33,9 +33,11 @@
     }
   },
 
-  "postCreateCommand": "pip install --user -r requirements.txt && sudo apt-get update && sudo apt-get install -y nmap tshark python3-tk",
+  "postCreateCommand": "pip install --user -r requirements.txt && sudo apt-get update && sudo apt-get install -y nmap tshark python3-tk && cat .devcontainer/WELCOME.md",
 
   "forwardPorts": [],
 
-  "remoteUser": "vscode"
+  "remoteUser": "vscode",
+
+  "postAttachCommand": "echo '\n🎉 Codespace is ready! Run python TESTNMAP.py or python matrixs1.0.py to get started.\n'"
 }
