@@ -1,4 +1,7 @@
 # Mr.Matrix-WORMGPT-V2V.X
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/SomeRandmGuyy/Mr.Matrix-WORMGPT-V2V.X)
+
 Mr Matrix [The Cat that hacks for you] No AUTOGPT needed!
 # Mr. Matrix - WORMGPT-V2V.X
 
@@ -20,7 +23,40 @@ Simply interact with Mr. Matrix by asking questions or seeking knowledge. Mr. Ma
 
 ## Installation
 
+### Quick Start with GitHub Codespaces (Recommended)
+
+You can run Mr. Matrix directly in your browser using GitHub Codespaces:
+
+1. Click the **Code** button on the repository page
+2. Select **Codespaces** tab
+3. Click **Create codespace on main** (or your preferred branch)
+4. Wait for the environment to build (dependencies will be installed automatically)
+5. Once ready, you can run the applications directly in the Codespace terminal
+
+### Local Installation
+
 Clone the repository to your local machine and run the provided scripts to unleash the power of Mr. Matrix - WORMGPT-V2V.X.
+
+```bash
+git clone https://github.com/SomeRandmGuyy/Mr.Matrix-WORMGPT-V2V.X.git
+cd Mr.Matrix-WORMGPT-V2V.X
+pip install -r requirements.txt
+sudo apt-get install nmap tshark  # For network scanning features
+```
+
+### Running the Applications
+
+**Nmap GUI Client:**
+```bash
+python TESTNMAP.py
+```
+
+**Packet Analyzer:**
+```bash
+python matrixs1.0.py
+```
+
+Note: Network scanning tools require appropriate permissions. Always ensure you have permission before scanning networks or accessing systems.
 
 ## Contributing
 
