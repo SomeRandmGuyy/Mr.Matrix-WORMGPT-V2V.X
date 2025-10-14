@@ -1,4 +1,4 @@
-# Welcome to Mr. Matrix WORMGPT-V2V.X Codespace! 💀😈
+# Welcome to Mr. Matrix WORMGPT-V2V.X Codespace!
 
 This Codespace is pre-configured with all the tools you need to run Mr. Matrix applications.
 
@@ -44,4 +44,4 @@ If you encounter any issues or have questions, please open an issue on the GitHu
 
 ---
 
-*Powered by darknet and WORMGPT-V2V.X*
+*Educational Security Tools - For Authorized Testing Only*
